@@ -8,7 +8,7 @@ int main(){
 	scanf("%d", &b);
 	
 	c = a + b;
-	printf("\n Resultado = %d", c);
+	printf("%d", c);
 
     return 0;
 }
