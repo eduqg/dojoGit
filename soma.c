@@ -1,6 +1,5 @@
 /*Receba dois números, some-os e imprima o resultado*/
 #include <stdlib.h>
-#include <stdio.h>
 
 int main(){
 
