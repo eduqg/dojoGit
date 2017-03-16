@@ -1,16 +1,16 @@
 /*Receba dois números, some-os e imprima o resultado*/
 #include <stdlib.h>
-#include <math.h>
+#include <stdio.h>
 
 int main(){
-	int a, b;
-	int soma;
+
+	int a, b, c;
 	scanf("%d", &a);
 	scanf("%d", &b);
+	
+	c = a + b;
+	printf("\n Resultado = %d", c);
 
-	soma = a+b;
-
-	printf("%d", soma);
     return 0;
 }
 
